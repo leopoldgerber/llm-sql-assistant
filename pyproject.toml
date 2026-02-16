@@ -11,6 +11,12 @@ requires-python = '>=3.11'
 license = {text = 'MIT'}
 authors = [{name = 'leopoldgerber'}]
 
+[project.optional-dependencies]
+dev = [
+    'ruff>=0.6.0',
+    'pytest>=8.0.0',
+]
+
 [tool.setuptools]
 package-dir = {'' = 'src'}
 

@@ -1,0 +1,18 @@
+[build-system]
+requires = ['setuptools>=68', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'llm-sql-assistant'
+version = '0.1.0'
+description = 'LLM-based Text-to-SQL assistant with execution-accuracy evaluation and SQL safety guardrails.'
+readme = 'README.md'
+requires-python = '>=3.11'
+license = {text = 'MIT'}
+authors = [{name = 'leopoldgerber'}]
+
+[tool.setuptools]
+package-dir = {'' = 'src'}
+
+[tool.setuptools.packages.find]
+where = ['src']

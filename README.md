@@ -51,3 +51,14 @@ python scripts/create_demo_db.py
 ```
 
 This will generate a file called demo.db with sample customers and orders tables.
+
+
+## Evaluation (Execution Accuracy)
+
+1) Create the demo database:
+
+    python scripts/create_demo_db.py
+
+2) Run evaluation:
+
+    python scripts/run_eval.py

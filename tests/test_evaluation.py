@@ -1,5 +1,5 @@
-import sqlite3
 import pytest
+import sqlite3
 from pathlib import Path
 
 from llm_sql_assistant.evaluation import execution_match
